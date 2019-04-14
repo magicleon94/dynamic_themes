@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: CustomTheme.of(context).primaryColor,
+          backgroundColor: Theme.of(context).primaryColor,
           title: Text("Homepage"),
         ),
         body: Padding(
@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Divider(height: 100,),
                 AnimatedContainer(
                   duration: Duration(milliseconds: 500),
-                  color: CustomTheme.of(context).primaryColor,
+                  color: Theme.of(context).primaryColor,
                   width: 100,
                   height: 100,
                 ),

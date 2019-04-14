@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Dynamic themes demo',
+      theme: CustomTheme.of(context),
       home: HomeScreen(),
     );
   }
